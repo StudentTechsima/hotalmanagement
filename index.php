@@ -369,6 +369,7 @@
                 </form>
             </div>
         </section>
+        <section></section>
     </main>
     <?php include "footer.php"?>
 </body>
