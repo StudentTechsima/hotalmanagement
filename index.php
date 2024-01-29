@@ -370,7 +370,9 @@
             </div>
         </section>
     </main>
-    <section></section>
+    <section>
+        <h1>hello</h1>
+    </section>
     <?php include "footer.php"?>
 </body>
 
