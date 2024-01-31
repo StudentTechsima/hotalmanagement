@@ -4,9 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Singin singout</title>
-    <link href="style1.css" rel="stylesheet">
+    <?php include "include/links.php"?>
+    <link rel="stylesheet" href="css/signin.css">
+    <link rel="stylesheet" href="css/common.css">
 </head>
 <body>
+  <?php include "include/subheader.php"?>
+  <?php include "include/headder.php"?>
 <div class="cont">
   <div class="form sign-in">
     <h2>Welcome</h2>
@@ -56,7 +60,7 @@
     </div>
   </div>
 </div>
-
+<?php include "include/footer.php"?>
 <script>
   document.querySelector('.img__btn').addEventListener('click', function() {
     document.querySelector('.cont').classList.toggle('s--signup');

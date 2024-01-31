@@ -1,8 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<?php include "headder.php"?>
-                </header>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Hotel Ramayana</title>
+    <?php include "include/links.php"?>
+</head>
+<body>
+<?php include "include/subheader.php"?>
+<?php include "include/headder.php"?>
+<video class="hero-bg" autoplay loop muted src="images/hotel_food_and_interior (1080p).mp4">
+        <div class="video-background"></div>
+    </video>
+    <main>
+        <div id="main">
+        <section id="page1">
+    
                 <div class="hero-content">
                     <h1 class="heading1-white heading1-white-scroll">Welcome to the Ramayana Hotel</h1>
                     <h2 class="heading4-white heading1-white-scroll"><i class="fa-regular fa-star"></i><i
@@ -370,7 +383,13 @@
             </div>
         </section>
     </main>
-    <?php include "footer.php"?>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"
+        integrity="sha512-EZI2cBcGPnmR89wTgVnN3602Yyi7muWo8y1B3a8WmIv1J9tYG+udH4LvmYjLiGp37yHB7FfaPBo8ly178m9g4Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js"
+        integrity="sha512-OzC82YiH3UmMMs6Ydd9f2i7mS+UFL5f977iIoJ6oy07AJT+ePds9QOEtqXztSH29Nzua59fYS36knmMcv79GOg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <?php include "include/footer.php"?>
 </body>
 
 </html>

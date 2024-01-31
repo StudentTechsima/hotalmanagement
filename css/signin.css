@@ -22,10 +22,7 @@
 
 body {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
-  background: var(--primary-background-color);
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  background: var(--secondary-background-color);
 }
 
 input,
@@ -46,7 +43,7 @@ button {
   position: relative;
   width: 900px;
   height: 450px;
-  margin: 0 auto 100px;
+  margin: 50px auto;
   background: var(--secondary-background-color);
   box-shadow: -10px -10px 15px rgba(255, 255, 255, 0.3),
     10px 10px 15px rgba(70, 70, 70, 0.15),

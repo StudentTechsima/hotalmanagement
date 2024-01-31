@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Ramayana</title>
-    <link rel="stylesheet" href="style.css">
+    <?php include "include/links.php"?>
+    <link rel="stylesheet" href="css/common.css">
 </head>
 <body>
-    <?php include "../admin/usersJone.php"?>
+<?php include "include/subheader.php"?>
+<?php include "include/headder.php"?>
     <section class="admin_page1">
     <aside id="user_sidebar">
             <ul>
@@ -49,6 +51,6 @@
             </div>
         </div>
     </section>
-    <script src="https://kit.fontawesome.com/677dfc168a.js" crossorigin="anonymous"></script>
+    <?php include "include/footer.php"?>
 </body>
 </html>

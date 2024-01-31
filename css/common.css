@@ -33,15 +33,17 @@ a{
     justify-content: end;
     gap: 2em;
     min-height: 100vh;
+    position: relative;
 }
 /* Side bar>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
 #user_sidebar{
     position: absolute;
     left: 0;
+    top: 0;
     width: 20%;
     padding-block: 2em;
     overflow: auto;
-    height: 90vh;
+    height: 100%;
     background-color: var(--white-background);
 }
 ::-webkit-scrollbar {
@@ -94,4 +96,17 @@ tr{
 }
 td{
     padding: 10px 0;
+}
+.mainHeader{
+    background-color: rgb(113, 110, 110) !important;
+    height: 65px;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+.mainHeader .logo{
+    width: 10% !important;
+}
+.mainHeader .burger{
+    color: white !important;
 }
