@@ -52,15 +52,15 @@
         <i style="color:crimson" class="sub_social fa-brands fa-instagram"></i>
         </div>
     </div>
-
-
     <script src="js/all.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
-    <script src="js/javascript.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="https://kit.fontawesome.com/677dfc168a.js" crossorigin="anonymous"></script>
     <script>
         AOS.init({
             offset: 130,
         });
     </script>
     <script src="js/core_js.js"></script>
+    </body>
+</html>

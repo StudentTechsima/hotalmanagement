@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Ramayana</title>
-    <?php include "include/links.php"?>
-    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+    <link rel="stylesheet" href="../css/common.css">
 </head>
 <body>
-<?php include "include/subheader.php"?>
-<?php include "include/headder.php"?>
+<?php include "../subheader.php"?>
+<?php include "../headder.php"?>
     <section class="admin_page1">
     <aside id="user_sidebar">
             <ul>
@@ -51,6 +52,6 @@
             </div>
         </div>
     </section>
-    <?php include "include/footer.php"?>
+    <?php include "../footer.php"?>
 </body>
 </html>

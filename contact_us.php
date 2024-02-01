@@ -1,17 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <?php include "include/links.php"?>
-  <link rel="stylesheet" href="css/common.css">
-  <link rel="stylesheet" href="css/contact_us.css">
-</head>
-<body>
-<?php include "include/subheader.php"?>
-<?php include "include/headder.php"?>
+<? include "headder.php"?>
+<?php include "subheader.php"?>
+<?php include "headder.php"?>
   <section class="page">
     <div class="container">
       <div class="contact">
@@ -67,8 +56,5 @@
         </div>
       </div>
   </section>
-  <?php include "include/footer.php"?>
+  <?php include "footer.php"?>
   <script src="https://kit.fontawesome.com/8910e15a62.js" crossorigin="anonymous"></script>
-</body>
-
-</html>
