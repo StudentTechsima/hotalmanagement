@@ -1,18 +1,5 @@
-<?php include "headder.php" ?>
-<!DOCTYPE html>
-<html lang="en">
+<?php include "header.php" ?>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/bootstrap.min.css">
-  <link rel="stylesheet" href="css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/about.css">
-  <link rel="stylesheet" href="css/about-responsive.css">
-  <title>About Us</title>
-</head>
-
-<body>
   <!--Start First Section-->
   <section class="Nav">
     <div class="contain">
@@ -135,12 +122,5 @@
     </div>
   </section>
   <!--End Third Section-->
-  <script src="Js/about.js"></script>
- 
-  <script src="Js/bootstrap.bundle.min.js"></script>
-  <script src="Js/jquery-3.7.1.min.js"></script>
-
+  
   <?php include "footer.php" ?>
-</body>
-
-</html>

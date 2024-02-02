@@ -1,8 +1,7 @@
-<? include "headder.php"?>
-<?php include "subheader.php"?>
-<?php include "headder.php"?>
+
+<?php  include "header.php"?>
   <section class="page">
-    <div class="container">
+    <div class="container_contact_us">
       <div class="contact">
 
         <form>
@@ -57,4 +56,4 @@
       </div>
   </section>
   <?php include "footer.php"?>
-  <script src="https://kit.fontawesome.com/8910e15a62.js" crossorigin="anonymous"></script>
+  

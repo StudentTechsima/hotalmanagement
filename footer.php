@@ -54,6 +54,7 @@
     </div>
     <script src="js/all.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/about.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="https://kit.fontawesome.com/677dfc168a.js" crossorigin="anonymous"></script>
     <script>

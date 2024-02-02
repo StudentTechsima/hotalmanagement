@@ -1,5 +1,4 @@
-<?php include "subheader.php"?>
-<?php include "headder.php"?>
+<?php include "header.php"?>
 <video class="hero-bg" autoplay loop muted src="images/hotel_food_and_interior (1080p).mp4">
         <div class="video-background"></div>
     </video>

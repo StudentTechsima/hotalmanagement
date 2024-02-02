@@ -1,8 +1,10 @@
 const slidermenubars = document.getElementById("slidermenu");
 
 function toglemenu(){
- slidermenubars.style.right="0";   
+ slidermenubars.style.width="70%";
+ slidermenubars.style.opacity="1";   
 }
 function crossmenu(){
-    slidermenubars.style.right="-100%";   
+    slidermenubars.style.width="0";
+    slidermenubars.style.opacity="0";
    }
