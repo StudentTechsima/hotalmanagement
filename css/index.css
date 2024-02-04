@@ -9,10 +9,24 @@
     box-sizing: border-box;
 
 }
+::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+  }
+   
+  ::-webkit-scrollbar-thumb {
+    background: var(--yellow-color); 
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #a31010; 
+  }
 
 *::selection {
     color: var(--yellow-color);
-    background-color: rgba(0, 0, 0, 0.46);
+    background-color: rgba(0, 0, 0,);
 }
 
 :root {
@@ -152,6 +166,7 @@ h6 {
     color: var(--white-color);
     padding: 10px 15px;
     transition: all .4s;
+    border-radius: 10px;
 }
 
 .primary-btn:hover {
@@ -170,7 +185,6 @@ h6 {
     padding: 50px;
     width: 100%;
 }
-
 .flex {
     display: flex;
 }
@@ -178,7 +192,7 @@ h6 {
 /* sub header willl be started here */
 .subHeader {
     width: 100%;
-    padding-inline: 3em;
+    padding:.3em 3em;
     justify-content: space-between;
     background: var(--secondary-background-color);
     align-items: center;
@@ -224,26 +238,31 @@ h6 {
 
 .sign_in_subheader {
     background-color: var(--yellow-color);
-    border-radius: 5px;
+    border-radius: 10px;
     padding: 5px 20px;
     display: flex;
     align-items: center;
     justify-content: center;
     color: white;
+    transition: all .3s;
+}
+.sign_in_subheader:hover{
+    background: var(--white-color);
+    color: var(--yellow-color);
+    box-shadow: 0 0 10px rgba(157, 153, 153, 0.37);
 }
 
 /* main header will be started here */
 .mainHeader {
     justify-content: space-between;
     align-items: center;
-    align-items: center;
     width: 100%;
-    padding-inline: 3em;
-    position: fixed;
+    padding:.3em 3em 0;
+    position: sticky;
     left: 0;
+    top: 0;
     z-index: 999;
-    top: 40px;
-    padding-top: 10px;
+    background: rgba(0, 0, 0, .5);
 }
 
 .logo>a>img {
@@ -286,15 +305,17 @@ h6 {
     display: flex;
     gap: 5px;
     align-items: center;
-    border-radius: 5px;
+    border-radius: 10px;
     padding-block: 10px;
     font-size: .9em;
     font-weight: 600;
+    transition: all .3s;
 }
 
 .menu>.book-online:hover {
-    color: var(--yellow-color);
     background: var(--white-color);
+    color: var(--yellow-color);
+    box-shadow: 0 0 10px rgba(157, 153, 153, 0.37);
 }
 
 .burger {
@@ -445,6 +466,7 @@ section {
     padding: 10px 15px;
     color: var(--black-heading-color);
     transition: all .4s;
+    border-radius: 10px;
 }
 
 .room-division:hover .checkButtons {
@@ -850,4 +872,111 @@ footer {
 .sub-division .sub_social:hover {
     background-color: var(--yellow-color);
     box-shadow: 0 0 10px 1PX rgba(210, 204, 204, 0.37);
+}
+
+/* contact us css started here */
+.page {
+    padding: 3em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
+
+.container_contact_us{
+
+    min-height: 500px;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    display: flex;
+}
+
+.contact{
+    min-height: 500px;
+    width: 55%;
+
+}
+.contact h1{
+    color: #e65107;
+
+}
+.contact form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    width: 100%;
+}
+.contact form .contactinput{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    padding: 20px;
+    display: block;
+    width: 100%;
+}
+.textarea1{
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    padding: 20px;
+    resize: none;
+    width: 100%;
+}
+.submit_btn{
+    width: fit-content;
+    border: none;
+    outline: none;
+    padding: 10px 30px;
+    background-color: var(--yellow-color);
+    border-radius: 10px;
+    margin-top: 1em;
+    transition: all .3s;
+    font-weight: 600;
+}
+.submit_btn:hover{
+    color: white;
+    background-color: #e65107;
+}
+.get {
+    min-height: 500px;
+    width: 35%;
+    background-color: var(--secondary-background-color);
+    padding: 2em;
+}
+.get h1{
+    text-align: center;
+    font-weight:bold;
+
+}
+.get h2{
+    font-weight:600;
+    color:bisque;    
+}
+.social{
+    padding: 10px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.social>a>i{
+    padding: 10px;
+}
+@media (max-width:768px){
+    .contact{
+    width:100%;
+    text-align: center;
+	padding-bottom:150px;
+    }
+    .get{
+        width:100%;
+        text-align: center;
+        } 
+       
+        input[type="submit"] {
+            display: flex;
+            justify-content: center;
+        }
 }

@@ -1,4 +1,11 @@
 @media screen and (max-width:950px) {
+    .section-container {
+
+        overflow: hidden;
+    }
+    section{
+        overflow: hidden;
+    }
     body{
         font-size: 14px;
     }
@@ -12,16 +19,17 @@
     }
     #page1{
         height: 90vh;
+        overflow: hidden;
     }
     .nav-bar {
         position: absolute;
-        right: -100%;
+        right: 0;
         top: 0;
         background-color: var(--yellow-color);
-        width: fit-content;
-        width: 50%;
         transition: all .5s;
         height: 100vh;
+        overflow: hidden;
+        width: 0;
     }
     .menu-bar {
         flex-direction: column;
@@ -73,6 +81,13 @@
 }
 /* max-width 768px...................................................... */
 @media screen and (max-width:800px) {
+    .section-container {
+
+        overflow: hidden;
+    }
+    section{
+        overflow: hidden;
+    }
     .sign_in_subheader{
         background-color: var(--yellow-color);
         border-radius: 10px;
@@ -142,9 +157,7 @@
     .food{
         width: 50%;
     }
-    .nav-bar {
-        width: 60%;
-    }
+    
     .footer{
         flex-wrap: wrap;
         font-size: 14px;
@@ -177,6 +190,13 @@
 }
 /* max-width 576px...................................................... */
 @media screen and (max-width:576px) {
+    .section-container {
+
+        overflow: hidden;
+    }
+    section{
+        overflow: hidden;
+    }
     .faculties{
         flex-wrap: wrap;
         justify-content: space-around;
@@ -199,9 +219,6 @@
     .order-img2{
         order: 5;
     }
-    .nav-bar {
-        width: 70%;
-    }
     .footer{
         flex-direction: column;
         align-items: center;
@@ -213,6 +230,13 @@
 
 /* max-width 500px...................................................... */
 @media screen and (max-width:500px) {
+    .section-container {
+
+        overflow: hidden;
+    }
+    section{
+        overflow: hidden;
+    }
     .responsive-gmail{
         border-radius: 10px;
         padding: 6px 30px;
@@ -298,6 +322,13 @@ section{
 }
 }
 @media screen and (max-width:350px) {
+    .section-container {
+
+        overflow: hidden;
+    }
+    section{
+        overflow: hidden;
+    }
     .responsive-gmail {
         padding: 7px 15px;
     }
