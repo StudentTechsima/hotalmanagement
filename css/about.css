@@ -1,6 +1,4 @@
 :root{
-    --primary-background-color:rgb(247, 237, 220);
-    --secondary-background-color: #f1ebe2;
     --primary-color:#858a99;
     --dark-primary-color:#535455;
     --letter-spacing: .5px;
@@ -13,6 +11,10 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
+    font-family: var(--font-poppins-text);
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: var(--font-greate-vibes);
 }
 .Nav{
     min-height: 180px;
@@ -39,37 +41,31 @@
 }
 /*Second Section start*/
     .slide{
-        min-height:400px;
         width:100%;
+        padding: 3.3rem;
     }
 .slider{
-    min-height: 400px;
-    width:83%;
-    margin:20px auto;
-    padding:20px 0px 0px 0px ;
     display: flex;
-    gap:15px;
+    gap:20px;
     justify-content: center;
 }
 .slider-part1{
-    min-height:400px;
     width:65%;
 }
 .slider-part1 .head{
-    font-size:2.2rem;
+    font-size:2rem;
     line-height: 1.5em;
-    padding:1.3rem 0px;
+    padding:1rem 0px;
     color:var(--yellow-color);
 }
 .slider-part1 p{
-    font-size: 1.08em;
-    line-height: 1.6em;
+    font-size: .95em;
+    line-height: 1.5em;
     margin: 10px 0;
     color: #858a99;
     text-align: justify;
 }
 .slider-part2{
-    min-height:400px;
     width:35%;
 }
 .slider-part2 .slide-image{
@@ -81,7 +77,7 @@
    display: block;
     max-width: 100%;
     height: 250px;
-border-radius: 4px;
+    border-radius: 4px;
     opacity: .3;
 }
 .slide-image .img2{
@@ -138,12 +134,11 @@ border-radius: 4px;
 /*Second Section End*/
 /*Third Section Start*/
     .third{
-        min-height:400px;
         width:100%;
+        padding: 3.3rem;
+        background-color: var(--secondary-background-color);
     }
     .third-head{
-        min-height:400px;
-        width:85%;
         margin:0px auto;
     }
     .third-head h4{
@@ -194,3 +189,36 @@ border-radius: 4px;
       height:100%;
       width:100%;
     }
+    /* responsive>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+@media screen and (max-width:1000px) {
+    .slider{
+        gap:0;
+        justify-content: center;
+        flex-wrap: wrap-reverse;
+    }
+    .slider-part1{
+        width:100%;
+    }
+    .slider-part2{
+        width:100%;
+    }
+    .third-head .third-part2{
+        flex-wrap: wrap;
+    }
+     
+    .third-part2 .third-part2-box{
+      width:48%;
+    }
+}
+@media screen and (max-width:600px){
+     
+    .third-part2 .third-part2-box{
+      width:100%;
+    }
+    .slider-part1 .head{
+        font-size:1.5rem;
+    }
+    .Nav .contain h1{
+        font-size: 1.8rem;
+    }
+}

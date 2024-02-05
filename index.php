@@ -1,11 +1,9 @@
 <?php include "header.php"?>
-<video class="hero-bg" autoplay loop muted src="images/hotel_food_and_interior (1080p).mp4">
-        <div class="video-background"></div>
-    </video>
+<video class="hero-bg" autoplay loop muted src="images/hotel_food_and_interior (1080p).mp4"></video>
+    <div class="video-background"></div>
     <main>
-        <div id="main">
+        <?PHP include "admin\logindata.php"?>
         <section id="page1">
-    
                 <div class="hero-content">
                     <h1 class="heading1-white heading1-white-scroll">Welcome to the Ramayana Hotel</h1>
                     <h2 class="heading4-white heading1-white-scroll"><i class="fa-regular fa-star"></i><i
@@ -60,7 +58,6 @@
                     </div>
                 </div>
             </section>
-        </div>
 
         <!-- section 3 will be started here>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>........... -->
         <section class="section-3 flex" id="rooms">
@@ -365,7 +362,7 @@
                     alt="The Ramayana"> The Ramayana Hotel</h3>
                 <h2 class="heading-black" data-aos="flip-right">Sign Up for Update</h2>
                 <form class="subscribe_form" action="">
-                        <input class="input_mail" type="email" name="email" value="Email Address">
+                        <input class="input_mail" type="" value="Email Address">
                         <div class="signin_signout flex">
                         <a href=""><input class="submit_mail" type="submit" value="Subscribe"></a>
                         </div>
@@ -373,10 +370,4 @@
             </div>
         </section>
     </main>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"
-        integrity="sha512-EZI2cBcGPnmR89wTgVnN3602Yyi7muWo8y1B3a8WmIv1J9tYG+udH4LvmYjLiGp37yHB7FfaPBo8ly178m9g4Q=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollTrigger.min.js"
-        integrity="sha512-OzC82YiH3UmMMs6Ydd9f2i7mS+UFL5f977iIoJ6oy07AJT+ePds9QOEtqXztSH29Nzua59fYS36knmMcv79GOg=="
-        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <?php include "footer.php"?>
