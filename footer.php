@@ -57,10 +57,27 @@
     <script src="js/about.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="https://kit.fontawesome.com/677dfc168a.js" crossorigin="anonymous"></script>
+    <script src="js/core_js.js"></script>
     <script>
         AOS.init({
             offset: 130,
         });
+    </script>
+    <script>
+        var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0";
+    document.getElementById("main_header").style.top = "49px";
+    document.getElementById("main_header").style.background="";
+  } else {
+    document.getElementById("navbar").style.top = "-49px";
+    document.getElementById("main_header").style.top = "0px";
+    document.getElementById("main_header").style.background="rgba(0, 0, 0, .5)";
+  }
+  prevScrollpos = currentScrollPos;
+}
     </script>
     <script src="js/core_js.js"></script>
     </body>

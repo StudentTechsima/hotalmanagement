@@ -6,9 +6,9 @@
 
         <form>
             <h1>CONTACT US FORM</h1>
-            <input class="contactinput" type="text" id="name" placeholder="YOUR NAME" name="name" required class="input">
-            <input class="contactinput" type="email" id="email" placeholder=" YOUR EMAIL" name="email" required class="input">
-            <input class="contactinput" type="text" id="subject" placeholder="SUBJECT" name="subject" required class="input" >
+            <input class="contactinput" type="text" id="name" placeholder="YOUR NAME" name="name" required >
+            <input class="contactinput" type="email" id="email" placeholder=" YOUR EMAIL" name="email" required >
+            <input class="contactinput" type="text" id="subject" placeholder="SUBJECT" name="subject" required >
             <textarea class="textarea1" placeholder="YOUR MESSAGE (OPTION)." rows="8" required></textarea>  
             <input class="submit_btn" type="submit" value="submit" class="submit_btn">
         </form>
