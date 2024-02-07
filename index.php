@@ -2,7 +2,6 @@
 <video class="hero-bg" autoplay loop muted src="images/hotel_food_and_interior (1080p).mp4"></video>
     <div class="video-background"></div>
     <main>
-        <?PHP include "admin\logindata.php"?>
         <section id="page1">
                 <div class="hero-content">
                     <h1 class="heading1-white heading1-white-scroll">Welcome to the Ramayana Hotel</h1>

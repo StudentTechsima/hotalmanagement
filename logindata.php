@@ -1,4 +1,4 @@
-<?php include "conection.php";
+<?php include "admin/conection.php";
 if(isset($_POST['login'])){
 $user = $_POST['user'];
 $pass = $_POST['pass'];
