@@ -36,19 +36,19 @@
             <P>6386 901 835</P>
           </div>
           <div class="social">
-            <a>
+            <a href="#" class="contact-social">
             <i class="fa-brands fa-facebook"></i>
           </a>
-          <a>
+          <a href="#" class="contact-social">
             <i class="fa-brands fa-instagram"></i>
-          </a>
-          <a>
+          </a >
+          <a href="#" class="contact-social">
             <i class="fa-brands fa-linkedin"></i>
           </a>
-          <a>
+          <a href="#" class="contact-social">
             <i class="fa-brands fa-youtube"></i>
           </a>
-          <a>
+          <a href="#" class="contact-social">
             <i class="fa-brands fa-twitter"></i>
             </a>
           </div>

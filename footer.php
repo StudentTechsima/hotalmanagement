@@ -55,8 +55,10 @@
     <script src="js/all.min.js"></script>
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="js/about.js"></script>
+    <script src="js/jquery-3.7.1.min.js"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="https://kit.fontawesome.com/677dfc168a.js" crossorigin="anonymous"></script>
+    <script src="js/gallery.js"></script>
     <script src="js/core_js.js"></script>
     <script>
         AOS.init({

@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link rel="stylesheet" href="css/about.css">
     <link rel="stylesheet" href="css/room.css">
+    <link rel="stylesheet" href="css/gallery.css">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/responsive.css">
 </head>
@@ -32,6 +33,7 @@
             <a class="sign_in_subheader mob" href="book-online/signin.php">SignIn</a>
         </div>
     </div>
+    <?PHP include "logindata.php"?>
                 <header class="mainHeader flex" id="main_header">
                     <div class="logo">
                         <a href="https://www.theramayana.in/"> <img src="images/light-logo.png" alt="Main-Logo"></a>
@@ -44,7 +46,7 @@
                             <li class="menu"><a href="index.php" class="hoverable-menu">HOME</a></li>
                             <li class="menu"><a href="about.php" class="hoverable-menu">ABOUT US</a></li>
                             <li class="menu"><a href="rooms.php" class="hoverable-menu">ROOMS</a></li>
-                            <li class="menu"><a href="#images" class="hoverable-menu">IMAGES</a></li>
+                            <li class="menu"><a href="gallery.php" class="hoverable-menu">IMAGES</a></li>
                             <li class="menu"><a href="contact_us.php" class="hoverable-menu">CONTACT US</a></li>
                             <li class="menu"><a href="#book" class="book-online hoverable-menu flex"><i
                                         class="fa-solid fa-calendar-days"></i> BOOK ONLINE</a></li>
